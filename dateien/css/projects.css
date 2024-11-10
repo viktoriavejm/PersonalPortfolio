@@ -19,7 +19,8 @@
     --primary-bg-color: hsl(0, 0%, 7%); /*#111111*/
     --secondary-bg-color: hsl(0, 0%, 14%); /*#232323*/
     --accent-bg-color: hsl(0, 0%, 17%); /*#2C2C2C*/
-    --light-bg-color: hsla(0, 0%, 83%, 0.772) ;
+    --light-bg-color: hsla(0, 0%, 83%, 0.385) ;
+    --light-bg-color-hover: hsla(0, 0%, 83%, 0.661) ;
   
     /* / Primary, Secondary, Accent colors / */
     --primary-color: hsl(231, 37%, 14%); /*#161A30*/
@@ -175,6 +176,7 @@ a{
 
 
 .projects_main_galleryBox:hover{
+    background-color: var(--light-bg-color-hover);
     transform: translateY(-7px);
     cursor: pointer;
 }
@@ -191,3 +193,29 @@ a{
     padding: 10vh 0 5vh 0;
     text-decoration: underline;
 }
+
+/* Fotografie -- Fotos usw */
+
+#projects_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+}
+
+.projects_main_galleryBox_project1 img{
+    opacity: 0.3;
+    object-fit: cover;
+    width: 30vw;
+    height: 25vw;
+
+    box-shadow: 0 0 10px var(--black-color);
+
+    transition: all ease-in-out 200ms;
+}
+
+.projects_main_galleryBox_project1 img:hover{
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+
