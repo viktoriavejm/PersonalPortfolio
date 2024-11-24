@@ -147,7 +147,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
-    margin: 4vh 1vw 0 1vw;
+    margin: 2vh 1vw 0 1vw;
 }
 
 .projects_main_galleryBox{
@@ -176,7 +176,7 @@ a{
 
 .projects_main_galleryBox div{
     position: relative;
-    bottom: 10vw;
+    bottom: 12vw;
     color: var(--white-color);
 }
 
@@ -188,8 +188,8 @@ a{
 }
 
 .project_main_img{
-    width: 30vw;
-    height: 30vw;
+    width: 40vw;
+    height: 40vw;
     object-fit: contain;
     opacity: 0.5;
 }
@@ -197,7 +197,7 @@ a{
 #projects_main_headline{
     text-align: left;
     color: var(--white-color);
-    padding: 10vh 0 5vh 0;
+    padding: 10vh 0 1vh 0;
     text-decoration: underline;
 }
 
@@ -228,7 +228,7 @@ a{
 .foto_beschreibing{
     color: var(--white-color);
     position: relative;
-    bottom: 40px;
+    bottom: 60px;
     left: 15px;
 }
 

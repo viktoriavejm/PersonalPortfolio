@@ -29,7 +29,6 @@ function loadProjects(id) {
                     <img class="project_main_img_photos" src="../../fotos/projekte/fotografie/foto${i}.jpg" alt="foto${i}">
                     <p class="foto_beschreibing">${beschreibungen[i]}</p>
                 </div>`
-                
             }
 
             console.log(stringValue)
