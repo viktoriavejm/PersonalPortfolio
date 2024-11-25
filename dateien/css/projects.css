@@ -204,6 +204,7 @@ a{
 /* Fotografie -- Fotos usw */
 
 #project_info_content{
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2vw;
@@ -236,6 +237,13 @@ a{
     font-size: var(--font-size-m);
     color: var(--white-color);
     margin: 2vw 1vw 2vw 1vw;
+
+    transition: all ease-in-out 200ms;
+}
+
+#back:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
 }
 
 

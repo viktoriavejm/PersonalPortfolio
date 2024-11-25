@@ -16,6 +16,10 @@ const beschreibungen = [
   ];
 
 function loadProjects(id) {
+
+    document.getElementById('project_back').style.display = 'grid';
+
+    document.getElementById('project_info_content').style.display = 'grid';
     
     let stringValue = ""
     let backValue = `<p id="back" onclick="projectsBack()">Back</p>`
