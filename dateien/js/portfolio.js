@@ -80,8 +80,10 @@ function loadProjects(id) {
          document.getElementById("projects_main_headline").style.display = 'none';
 
         case 3:
+            break
 
         case 4:
+            break
     }
 }
 
