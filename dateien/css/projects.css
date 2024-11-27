@@ -132,32 +132,31 @@ a{
 }
 
 #projects_section1{
-    height: auto;
+    height: 100vh;
 
     background-color: #161A30;
 }
 
 /* MAIN *** Projects *** Gallery Photos */
 
+
+
 #projects_main_infosANDPics{
     padding: 3vw 3vw 3vw 3vw;
+    
 }
 
 #projects_main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5vw;
-    margin: 2vh 1vw 0 1vw;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 3vw;
 }
 
 .projects_main_galleryBox{
-    /* background-color: var(--light-bg-color); */
-    padding: var(--padding-m);
-    margin: 0;
+    margin: 1vw;
     border-radius: 12px;
-
-    /* box-shadow: 0 0 20px var(--light-bg-color); */
-
+    padding: 0;
+    
     text-align: center;
 
     transition: all ease-in-out 200ms;
@@ -165,7 +164,7 @@ a{
 
 .projects_main_galleryBox h4{
     font-size: var(--font-size-m);
-    margin: 2vw 15vw 1vw 15vw;
+    margin: 6vw 4vw 0vw 4vw;
     border-bottom: #7589ff 5px solid;
     border-radius: 50%;
 }
@@ -183,15 +182,15 @@ a{
 
 .projects_main_galleryBox:hover{
     /* background-color: var(--light-bg-color-hover); */
-    transform: translateY(-7px);
+    transform: translateY(-4px);
     cursor: pointer;
 }
 
 .project_main_img{
-    width: 40vw;
-    height: 40vw;
+    width: 100%;
     object-fit: contain;
     opacity: 0.5;
+    border-radius: 12px;
 }
 
 #projects_main_headline{
@@ -199,6 +198,7 @@ a{
     color: var(--white-color);
     padding: 10vh 0 1vh 0;
     text-decoration: underline;
+    text-align: center;
 }
 
 /* Fotografie -- Fotos usw */
@@ -246,4 +246,7 @@ a{
     transform: translateY(-4px);
 }
 
-
+.projekt_img img{
+    width: 10vw;
+    height: 10vw;
+}

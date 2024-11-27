@@ -58,7 +58,7 @@ function loadProjects(id) {
 
         case 2:
 
-        for (let i = 1; i < projectDescriptions.length; i++) {
+        for (let i = 0; i < projectDescriptions.length; i++) {
             stringValue += `
 
              <div class="projekte_web">
