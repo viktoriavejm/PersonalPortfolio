@@ -156,6 +156,7 @@ a{
     margin: 1vw;
     border-radius: 12px;
     padding: 0;
+    height: 15vw;
     
     text-align: center;
 
@@ -166,7 +167,7 @@ a{
     font-size: var(--font-size-m);
     margin: 6vw 4vw 0vw 4vw;
     border-bottom: #7589ff 5px solid;
-    border-radius: 50%;
+    border-radius: 47%;
 }
 
 .projects_main_galleryBox div p{
@@ -181,15 +182,14 @@ a{
 
 
 .projects_main_galleryBox:hover{
-    /* background-color: var(--light-bg-color-hover); */
-    transform: translateY(-4px);
+    transform: translateY(-5px);
     cursor: pointer;
 }
 
 .project_main_img{
     width: 100%;
     object-fit: contain;
-    opacity: 0.5;
+    
     border-radius: 12px;
 }
 
@@ -204,7 +204,6 @@ a{
 /* Fotografie -- Fotos usw */
 
 #project_info_content{
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2vw;
