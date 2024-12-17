@@ -236,6 +236,12 @@ label{
     padding: 2vh 0 2vh;
 }
 
+#text textarea:focus{
+    border:none;	
+    outline:none;
+    border-bottom:1px solid #7589ff;	
+}
+
 #text > textarea{
     border:0;
   border-bottom:1px solid #a5a5a5;  
@@ -270,3 +276,49 @@ label{
     background-color: var(--accent-color);
     color: var(--primary-color);
 }
+
+/* Discord Name Hhover */
+
+#discordSkill {
+    position: relative; /* Wichtig für die Positionierung der Tooltip-Box */
+  
+    display: grid;
+    place-items: center;
+    width: 4vw;
+    height: 4vw;
+
+    border-radius: 50%;
+    box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  #discordSkill img {
+    width: 90%;
+    object-fit: contain;
+  }
+  
+  #discordSkill:hover {
+    transform: translateY(-5px);
+  }
+  
+  #tooltip {
+  
+    position: absolute;
+    bottom: 120%; /* Position oberhalb des Skills */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em 1em;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 0.8em;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  #discordSkill:hover #tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
