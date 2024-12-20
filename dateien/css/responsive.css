@@ -1,0 +1,68 @@
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    .navbar-nav > li {
+        display: block;
+        margin-top: 10px;
+    }
+    .navbar-nav > li > a {
+        padding: 10px 15px;
+    }
+    .navbar-nav > li > a:hover {
+        background-color: #f8f8f8;
+    }
+    .navbar-nav > li > a.active {
+        background-color: #f8f8f8;
+    }
+    .navbar-nav > li > a.active:hover {
+        background-color: #f8f8f8;
+    }
+    .navbar-nav > li > a.active:after {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid #f8f8f8;
+        position: absolute;
+        top: 50%;
+        margin-top: -10px;
+        right: -10px;
+    }
+    .navbar-nav > li > a.active:hover:after {
+        border-left-color: #f8f8f8;
+    }
+    .navbar-nav > li > a.active:before {
+        content: " ";
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid #f8f8f8;
+        position: absolute;
+        top: 50%;
+        margin-top: -10px;
+        right: -11px;
+    }
+    .navbar-nav > li > a.active:before {
+        border-left-color: #f8f8f8;
+    }
+    .navbar-nav > li > a.active:after {
+        border-left-color: #f8f8f8;
+    }
+    .navbar-nav > li > a.active:before {
+        border-left-color: #f8f8f8;
+    }
+    .navbar-nav > li > a.active:after {
+        border-left-color: #f8f8f8;
+    }
+    .navbar-nav > li > a.active:before {
+        border-left-color: #f8f8f8;
+    }
+}
