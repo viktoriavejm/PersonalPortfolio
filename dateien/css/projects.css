@@ -164,6 +164,13 @@ a{
     transition: all ease-in-out 200ms;
 }
 
+.projects_main_galleryBox img{
+    width: 23vw;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
 .projects_main_galleryBox h4{
     font-size: var(--font-size-m);
     margin: 6vw 4vw 0vw 4vw;
