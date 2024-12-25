@@ -1,4 +1,4 @@
-@media (max-width: 1614px) {
+@media (max-width: 1300px) {
     /* Nav Bar */
 
     /* Section1 - Welcome */
@@ -7,6 +7,32 @@
 
     /* Section3 - Projects */
 
+    #projects_main{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 2vw;
+        row-gap: 6vw;
+    }
+
+    .projects_main_galleryBox h4{
+        font-size: var(--font-size-m);
+        margin: 6vw 15vw 0vw 15vw;
+        border-bottom: #7589ff 5px solid;
+        border-radius: 47%;
+    }
+
+    .projects_main_galleryBox img{
+        width: 35vw;
+        height: 25vh;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .projects_main_galleryBox:hover{
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+
     /* Section4 - Contact */
 
     /* Footer */
@@ -14,6 +40,11 @@
     /* General */
 
     /* AboutMe */
+    .socialImg{
+        width: 6vw;
+        height: 6vw;
+        transition: all ease-in-out 200ms;
+    }
 
 }
 
@@ -28,10 +59,28 @@
     #projects_main{
         display: grid;
         grid-template-columns: 50% 50%;
-        margin-top: 1vw;
+        margin-top: 2vw;
+        row-gap: 6vw;
     }
 
-    
+    .projects_main_galleryBox h4{
+        font-size: var(--font-size-m);
+        margin: 6vw 15vw 0vw 15vw;
+        border-bottom: #7589ff 5px solid;
+        border-radius: 47%;
+    }
+
+    .projects_main_galleryBox img{
+        width: 35vw;
+        height: 25vh;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .projects_main_galleryBox:hover{
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
 
     /* Section4 - Contact */
 

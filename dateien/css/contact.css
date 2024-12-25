@@ -262,17 +262,20 @@ label{
 
 #sendButton{
     margin-top: 4vh;
-    padding: 0.5vw 1vw;
+    padding: 0.5vw 0.5vw;
     border-radius: 8px;
     border: var(--accent-color) solid 1px;
     background-color: var(--primary-color);
     color: var(--accent-color);
+
+    transition: all ease-in-out 200ms;
 }
 
 #sendButton:hover{
-    padding: 0.5vw 1vw;
+    transform: translateY(-5px);
+    padding: 0.5vw 0.5vw;
     border-radius: 8px;
-    border: var(--primary-color) solid 2px;
+    border: var(--primary-color) solid 1px;
     background-color: var(--accent-color);
     color: var(--primary-color);
 }
