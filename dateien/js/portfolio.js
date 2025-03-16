@@ -31,37 +31,7 @@ const beschreibungen = [
   
 
 function loadFotoG() {
-
-    document.getElementById('project_back').style.display = 'grid';
-
-    document.getElementById('project_info_content').style.display = 'grid';
     
-    let stringValue = ""
-    let backValue = `<p id="back" onclick="projectsBack()">Back</p>`
-    //stringValue += `<p id="back" onclick="projectsBack()">Back</p>`
-    
-            stringValue = ""
-            for (let i = 0; i < beschreibungen.length; i++) {
-               stringValue += `
-
-                <div class="projects_main_galleryBox_project1">
-                    <img class="project_main_img_photos" src="../../fotos/projekte/fotografie/foto${i}.jpg" alt="foto${i}">
-                    <p class="foto_beschreibing">${beschreibungen[i]}</p>
-                </div>`
-            }
-
-            console.log(stringValue)
-            document.getElementById('project_back').innerHTML = backValue;
-            document.getElementById('project_info_content').innerHTML = stringValue;
-            document.getElementById("projects_main").style.display = 'none';
-            document.getElementById("projects_main_headline").style.display = 'none';
-
-       
-         console.log(stringValue)
-         document.getElementById('project_back').innerHTML = backValue;
-         document.getElementById('project_info_content').innerHTML = stringValue;
-         document.getElementById("projects_main").style.display = 'none';
-         document.getElementById("projects_main_headline").style.display = 'none';
 }
 
 function loadWeb() {

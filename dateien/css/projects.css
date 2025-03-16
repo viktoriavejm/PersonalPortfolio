@@ -93,7 +93,7 @@ a{
     margin: 0;
 }
 
-#main_projects{
+#projects_main{
     margin-top: 8vh;
     height: 100vh;
 }
@@ -152,12 +152,6 @@ a{
     
 }
 
-#projects_main{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin-top: 3vw;
-}
-
 .projects_main_galleryBox{
     margin: 1vw;
     border-radius: 12px;
@@ -200,7 +194,10 @@ a{
 }
 
 .project_main_img{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
     object-fit: contain;
     
     border-radius: 12px;
