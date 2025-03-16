@@ -22,6 +22,7 @@
     <script src="../js/portfolio.js" defer></script>
     <link rel="stylesheet" href="../css/projects.css">
     <link rel="icon" href="../../fotos/logo/logo_Vejmelek.jpg">
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/responsive.css">
 
     <script type="application/ld+json">
@@ -45,10 +46,9 @@
         </script>
         
 </head>
-<body>
+<body id="">
 
-    <section id="projects_section1">
-
+   <header>
         <nav class="homepage_navbar">
             <h4 id="homepage_navbar_portfolio" style="font-size: 1.5em;">Portfolio</h4>
             <div id="homepage_navbar_oben">
@@ -58,63 +58,13 @@
                 <a class="homepage_navbar_link" href="./contact.html" ><p>Contact</p></a>
             </div>
         </nav>
+   </header>
 
-        <main>
-            <div id="projects_main_infosANDPics">
-                <h2 id="projects_main_headline">My Projects</h2>
-                <h3 style="color: white; margin-top: 2vw; text-align: center;">The projects I did during my school education.</h3>
-               <div id="projects_main">
-                    <div  class="projects_main_galleryBox">
-                        <img onclick="loadFotoG()" class="project_main_img" src="../../fotos/projekte/fotografie/hintergrund.jpg" alt="">
-                        <div>
-                            <h4>Photography</h4>
-                            <p>Photos I took during my free time</p>
-                        </div>
-                        
-                    </div>
-                    <div class="projects_main_galleryBox">
-                        <img onclick="loadWeb()" class="project_main_img" src="../../fotos/projekte/webseiten/web.jpg" alt="">
-                        <div>
-                            <h4>Websites</h4>
-                        <p>Websites that i made</p>
-                        </div>
-                        
-                    </div>
-                    <div onclick="loadProgramming()" class="projects_main_galleryBox">
-                        <img class="project_main_img" src="../../fotos/projekte/programming/Java.jpg" alt="">
-                        <div>
-                            <h4>Programming</h4>
-                            <p>Programming tasks I did</p>
-                        </div>
-                        
-                    </div>
-                    <div onclick="loadElem()" class="projects_main_galleryBox">
-                        <img class="project_main_img" style="opacity: 0.5;" src="../../fotos/projekte/elements/elements.png" alt="">
-                        <div>
-                            <h4>Interactive Elements</h4>
-                            <p>Engaging, interactive web user experiences.</p>
-                        </div>
-                        
-                    </div>
-               </div>
-
-               <div id="projects_info">
-
-                <div id="project_back">
-                </div>
-
-                <div id="project_info_content">
-                </div>
-
-               </div>
-            </div>
-
-            <div>
-
-            </div>
-        </main>
-        
-    </section>
+   <main id="main_projects">
+        <div onclick=loadFotoG()"">
+            <h1>Photography</h1>
+        </div>
+   </main>
     
     <div>
         <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="viktoriavei" data-description="Support me on Buy me a coffee!" data-message="You're a big part of making this possible – your support means the world and keeps me inspired!" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>

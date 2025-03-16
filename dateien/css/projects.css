@@ -93,6 +93,11 @@ a{
     margin: 0;
 }
 
+#main_projects{
+    margin-top: 8vh;
+    height: 100vh;
+}
+
 /* ***** Navbar ***** */
 
 #homepage_navbar_oben{
